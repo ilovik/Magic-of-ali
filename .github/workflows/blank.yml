@@ -1,0 +1,116 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>alimagicshop</title>
+  <style>
+    body {
+      background-color: #0d0d0d;
+      color: #f5f5f5;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #111;
+      text-align: center;
+      padding: 2rem;
+    }
+    header h1 {
+      color: #e0c97f;
+      font-size: 2.5rem;
+      margin: 0;
+    }
+    .container {
+      padding: 2rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+    }
+    .product {
+      background-color: #1a1a1a;
+      border-radius: 10px;
+      width: 300px;
+      padding: 1rem;
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+    }
+    .product img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .product h2 {
+      color: #e0c97f;
+      font-size: 1.4rem;
+    }
+    .product p {
+      font-size: 0.95rem;
+      line-height: 1.5;
+    }
+    .price {
+      font-weight: bold;
+      color: #4caf50;
+      margin: 0.5rem 0;
+    }
+    .whatsapp {
+      display: inline-block;
+      background-color: #25d366;
+      color: white;
+      padding: 0.5rem 1rem;
+      text-decoration: none;
+      border-radius: 5px;
+      margin-top: 0.5rem;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #111;
+      font-size: 0.85rem;
+    }
+    footer a {
+      color: #e0c97f;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>alimagicshop</h1>
+    <p>Magic creations by Abdelali Nour</p>
+  </header>
+  <div class="container">
+    <div class="product">
+      <img src="https://via.placeholder.com/300x200?text=Vision" alt="Vision">
+      <h2>Vision</h2>
+      <p>The spectator selects a card... the angel reveals the value and then the full card appears. Easy to do. The gimmick can last forever.</p>
+      <p class="price">250 DH</p>
+      <a class="whatsapp" href="https://wa.me/212635837814" target="_blank">Order on WhatsApp</a>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/300x200?text=Roll" alt="Roll">
+      <h2>Roll</h2>
+      <p>A gimmick to produce a cigarette from a deck of cards. Fully examinable. Easy to make and perform. Great for social media.</p>
+      <p class="price">200 DH</p>
+      <a class="whatsapp" href="https://wa.me/212635837814" target="_blank">Order on WhatsApp</a>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/300x200?text=Sawebwork" alt="Sawebwork">
+      <h2>Sawebwork</h2>
+      <p>A visual card appearance gimmick by Abdelali Nour. Simple, clean, and made for visual magic.</p>
+      <p class="price">120 DH</p>
+      <a class="whatsapp" href="https://wa.me/212635837814" target="_blank">Order on WhatsApp</a>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/300x200?text=Cicard" alt="Cicard">
+      <h2>Cicard</h2>
+      <p>A visual printing gimmick. Turn a blank card into a real card in a blink. Handmade and fully examinable.</p>
+      <p class="price">300 DH</p>
+      <a class="whatsapp" href="https://wa.me/212635837814" target="_blank">Order on WhatsApp</a>
+    </div>
+  </div>
+  <footer>
+    <p>Contact: <a href="mailto:alimagicshop40@gmail.com">alimagicshop40@gmail.com</a> | <a href="https://www.instagram.com/abdelalinour" target="_blank">Instagram</a></p>
+    <p>&copy; 2025 alimagicshop. All rights reserved.</p>
+  </footer>
+</body>
+</html>
